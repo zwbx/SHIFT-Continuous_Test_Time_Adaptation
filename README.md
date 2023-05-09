@@ -36,5 +36,5 @@ bash run_cotta.sh
 ```
 
 ## License
-Non-commercial. Code is heavily based on Cotta, MMSegmentaion. Please also check Segformer's LICENSE.
+Non-commercial. Code is heavily based on Cotta, MMSegmentaion. 
 

@@ -1,4 +1,4 @@
-# SHIFT-Continual_Test_Time_Adaptation-Segmentaion_Benchmark
+# SHIFT-Continual_Test_Time_Adaptation-Semantic_Segmentaion_Benchmark
 
 ## enviromnet setup
 create conda envrioment

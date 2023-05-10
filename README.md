@@ -35,6 +35,7 @@ bash run_cotta.sh
 # Example rerun logs are included in ./example_logs/base.log, tent.log, and cotta.log.
 ```
 
+
 ## License
 Non-commercial. Code is heavily based on Cotta, MMSegmentaion. 
 

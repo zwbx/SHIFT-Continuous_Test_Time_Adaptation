@@ -97,7 +97,42 @@ bash run_cotta.sh
 | terrain       | 34.64 | 46.6  |
 | *Average*     | 49.42 | 61.14 |
 
+|           | Source model | Cotta   | Tent    |
+|-----------|--------------|---------|---------|
+| building  | 50.98        | 44.01   | 43.59   |
+| fence     | 26.92        | 30.16   | 27.87   |
+| pedestrian| 41.03        | 46.68   | 42.63   |
+| pole      | 36.1         | 44.92   | 39.88   |
+| road line | 61.93        | 65.98   | 62.33   |
+| road      | 93.38        | 90.65   | 91.23   |
+| sidewalk  | 69.29        | 69.62   | 68.27   |
+| vegetation| 52.68        | 54.93   | 55.68   |
+| vehicle   | 79.44        | 69.78   | 68.12   |
+| wall      | 39.14        | 41.13   | 41.15   |
+| traffic sign | 31.91     | 37.96   | 34.42   |
+| sky       | 54.44        | 52.27   | 51.75   |
+| traffic light | 26.51  | 32.81   | 30.32   |
+| terrain   | 35.63        | 35.2    | 34.64   |
+| *Average* | 49.96        | 51.15   | 49.42   |
 
+
+|           | Source model | Cotta   | Tent    |
+|-----------|--------------|---------|---------|
+| building  | 84.39        | 83.66   | 81.2    |
+| fence     | 33.36        | 39.04   | 38.11   |
+| pedestrian| 46.83        | 53.66   | 50.2    |
+| pole      | 41.01        | 55.03   | 51.73   |
+| road line | 69.09        | 74.36   | 72.35   |
+| road      | 96.22        | 93.26   | 93.92   |
+| sidewalk  | 74.49        | 73.85   | 73.55   |
+| vegetation| 61.02        | 65.03   | 66.5    |
+| vehicle   | 95.24        | 96.65   | 96.46   |
+| wall      | 50.68        | 54.5    | 55.14   |
+| traffic sign | 35.32     | 42.18   | 39.92   |
+| sky       | 57.53        | 55.94   | 55.35   |
+| traffic light | 28.92  | 36.61   | 35.0    |
+| terrain   | 42.59        | 46.04   | 46.6    |
+| *Average* | 58.34        | 62.13   | 61.14   |
 ## License
 Non-commercial. Code is heavily based on Cotta, MMSegmentaion. 
 

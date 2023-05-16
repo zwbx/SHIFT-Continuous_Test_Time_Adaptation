@@ -25,11 +25,9 @@ pip install -r requirements.txt
 
 
 ## Run
-download pretrained source model iter_40000.pth, then place it in 'deeplabv3_r50_shift_800x500' folder
-- [iter_40000.pth](https://drive.google.com/file/d/1J7a8k-XBi9LGNhciOw5xzmQ-GAb-tff6/view?usp=sharing)
-set dataset path in mmseg config in '/local_configs/'
-there are two settings for different dataset split: shift_val_800x500.py, shift_train_800x500.py 
-the following commands test on val split.
+- download pretrained source model [iter_40000.pth](https://drive.google.com/file/d/1J7a8k-XBi9LGNhciOw5xzmQ-GAb-tff6/view?usp=sharing), then place it in 'deeplabv3_r50_shift_800x500' folder
+- set dataset path in mmseg config in '/local_configs/', there are two settings for different dataset split: shift_val_800x500.py, shift_train_800x500.py 
+- the following commands test on val split.
 ```
 bash run_base.sh
 bash run_tent.sh

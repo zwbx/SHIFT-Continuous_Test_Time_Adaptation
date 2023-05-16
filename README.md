@@ -34,8 +34,25 @@ bash run_tent.sh
 bash run_cotta.sh
 # Example rerun logs are included in ./example_logs/base.log, tent.log, and cotta.log.
 ```
+## Benchmark
 
-
+| Class         | IoU   | Acc   |
+|---------------|-------|-------|
+| building      | 44.01 | 83.66 |
+| fence         | 30.16 | 39.04 |
+| pedestrian    | 46.68 | 53.66 |
+| pole          | 44.92 | 55.03 |
+| road line     | 65.98 | 74.36 |
+| road          | 90.65 | 93.26 |
+| sidewalk      | 69.62 | 73.85 |
+| vegetation    | 54.93 | 65.03 |
+| vehicle       | 69.78 | 96.65 |
+| wall          | 41.13 | 54.5  |
+| traffic sign  | 37.96 | 42.18 |
+| sky           | 52.27 | 55.94 |
+| traffic light | 32.81 | 36.61 |
+| terrain       | 35.2  | 46.04 |
+| *Average*     | 51.15 | 62.13 |
 ## License
 Non-commercial. Code is heavily based on Cotta, MMSegmentaion. 
 

@@ -34,19 +34,67 @@ bash run_tent.sh
 bash run_cotta.sh
 # Example rerun logs are included in ./example_logs/base.log, tent.log, and cotta.log.
 ```
-## Benchmark
+## Eval on SHIFT_continuous_videos_1x_val_front
 
-|           | building | fence | pedestrian | pole | road line | road | sidewalk | vegetation | vehicle | wall | traffic sign | sky | traffic light | terrain | *Average* |
-|-----------|----------|-------|------------|------|-----------|------|----------|------------|---------|------|--------------|-----|---------------|---------|-----------|
-| Source model | 50.98    | 26.92 | 41.03      | 36.10 | 61.93     | 93.38| 69.29    | 52.68      | 79.44   | 39.14| 31.91        | 54.44 | 26.51         | 35.63   | 49.96     |
-| Cotta     | 44.01    | 30.16 | 46.68      | 44.92 | 65.98     | 90.65| 69.62    | 54.93      | 69.78   | 41.13| 37.96        | 52.27 | 32.81         | 35.20   | 51.15     |
-| Tent      | 43.59    | 27.87 | 42.63      | 39.88 | 62.33     | 91.23| 68.27    | 55.68      | 68.12   | 41.15| 34.42        | 51.75 | 30.32         | 34.64   | 49.42     |
+### [Source model]()
 
-|           | building | fence | pedestrian | pole | road line | road | sidewalk | vegetation | vehicle | wall | traffic sign | sky | traffic light | terrain | *Average* |
-|-----------|----------|-------|------------|------|-----------|------|----------|------------|---------|------|--------------|-----|---------------|---------|-----------|
-| Source model | 84.39    | 33.36 | 46.83      | 41.01 | 69.09     | 96.22| 74.49    | 61.02      | 95.24   | 50.68| 35.32        | 57.53 | 28.92         | 42.59   | 58.34     |
-| Cotta     | 83.66    | 39.04 | 53.66      | 55.03 | 74.36     | 93.26| 73.85    | 65.03      | 96.65   | 54.50| 42.18        | 55.94 | 36.61         | 46.04   | 62.13     |
-| Tent      | 81.20    | 38.11 | 50.20      | 51.73 | 72.35     | 93.92| 73.55    | 66.50      | 96.46   | 55.14| 39.92        | 55.35 | 35.00         | 46.60   | 61.14     |
+| Class         | IoU   | Acc   |
+|---------------|-------|-------|
+| building      | 43.59 | 81.2  |
+| fence         | 27.87 | 38.11 |
+| pedestrian    | 42.63 | 50.2  |
+| pole          | 39.88 | 51.73 |
+| road line     | 62.33 | 72.35 |
+| road          | 91.23 | 93.92 |
+| sidewalk      | 68.27 | 73.55 |
+| vegetation    | 55.68 | 66.5  |
+| vehicle       | 68.12 | 96.46 |
+| wall          | 41.15 | 55.14 |
+| traffic sign  | 34.42 | 39.92 |
+| sky           | 51.75 | 55.35 |
+| traffic light | 30.32 | 35.0  |
+| terrain       | 34.64 | 46.6  |
+| *Average*     | 49.42 | 61.14 |
+
+
+### Cotta
+
+| Class         | IoU   | Acc   |
+|---------------|-------|-------|
+| building      | 44.01 | 83.66 |
+| fence         | 30.16 | 39.04 |
+| pedestrian    | 46.68 | 53.66 |
+| pole          | 44.92 | 55.03 |
+| road line     | 65.98 | 74.36 |
+| road          | 90.65 | 93.26 |
+| sidewalk      | 69.62 | 73.85 |
+| vegetation    | 54.93 | 65.03 |
+| vehicle       | 69.78 | 96.65 |
+| wall          | 41.13 | 54.5  |
+| traffic sign  | 37.96 | 42.18 |
+| sky           | 52.27 | 55.94 |
+| traffic light | 32.81 | 36.61 |
+| terrain       | 35.2  | 46.04 |
+| *Average*     | 51.15 | 62.13 |
+
+### Tent
+| Class         | IoU   | Acc   |
+|---------------|-------|-------|
+| building      | 43.59 | 81.2  |
+| fence         | 27.87 | 38.11 |
+| pedestrian    | 42.63 | 50.2  |
+| pole          | 39.88 | 51.73 |
+| road line     | 62.33 | 72.35 |
+| road          | 91.23 | 93.92 |
+| sidewalk      | 68.27 | 73.55 |
+| vegetation    | 55.68 | 66.5  |
+| vehicle       | 68.12 | 96.46 |
+| wall          | 41.15 | 55.14 |
+| traffic sign  | 34.42 | 39.92 |
+| sky           | 51.75 | 55.35 |
+| traffic light | 30.32 | 35.0  |
+| terrain       | 34.64 | 46.6  |
+| *Average*     | 49.42 | 61.14 |
 
 ## Toturial
 ## License

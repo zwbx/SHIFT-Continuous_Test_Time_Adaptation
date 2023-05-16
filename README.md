@@ -99,9 +99,7 @@ bash run_cotta.sh
 
 ## Evaluation on all_shift_type
 
-| First Evaluation | Second Evaluation |
-|------------------|-------------------|
-|                  |                   |
+
 | | Class         | IoU   | Acc   | | Class         | IoU   | Acc   |
 | |---------------|-------|-------| |---------------|-------|-------|
 | | building      | 44.01 | 83.66 | | building      | 43.59 | 81.2  |

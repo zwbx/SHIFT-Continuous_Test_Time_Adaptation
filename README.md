@@ -18,8 +18,9 @@ Please make sure that conda or miniconda is installed on your machine before run
     pip install mmcv_full-1.2.7-cp38-cp38-manylinux1_x86_64.whl
     ```
 
-- Install other dependencies
+- Install mmsegmentation and other dependencies
     ```
+    pip isntall -v -e .
     pip install -r requirements.txt
     ```
 

@@ -79,7 +79,7 @@ class ShiftDataset(CustomDataset):
                 img_infos.append(img_info)
         # img_infos = img_infos[0:10]        
         print_log(f'Loaded {len(img_infos)} images', logger=get_root_logger())
-        img_infos_sorted = sorted(img_infos, key=lambda x: x['filename'])[:2]
+        img_infos_sorted = sorted(img_infos, key=lambda x: x['filename'])
         return img_infos_sorted 
 
   

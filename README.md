@@ -20,7 +20,7 @@ Please make sure that conda or miniconda is installed on your machine before run
 
 - Install mmsegmentation and other dependencies
     ```
-    pip isntall -v -e .
+    pip install -v -e .
     pip install -r requirements.txt
     ```
 

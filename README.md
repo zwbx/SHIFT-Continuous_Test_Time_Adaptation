@@ -66,6 +66,8 @@ You are able to download the pretrained models and run the evaluation scripts di
     Example logs are included in `./example_logs/{base.log, tent.log, cotta.log}`.
 <!-- - for *SHIFT_continuous_videos_1x_train_front*,
 modify config path 'shift_train_800x500.py' to 'shift_val_800x500.py'  -->
+
+*To train your own source model, refer to [SHIFT-TTA-train_source_model](https://github.com/zwbx/SHIFT-TTA-train_source_model)*
 ### Baseline results
 
 <details>
@@ -263,10 +265,6 @@ Note that evaluation for each sequence requires reloading pretrained parameters 
                 ...
     ```
 </details>
-
-## Train your own source model
-
-Refer to [SHIFT-TTA-train_source_model](https://github.com/zwbx/SHIFT-TTA-train_source_model)
 
 ## License
 Non-commercial. Code is heavily based on Cotta, MMSegmentaion 0.11. 

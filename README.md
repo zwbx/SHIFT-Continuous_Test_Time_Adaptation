@@ -264,9 +264,9 @@ Note that evaluation for each sequence requires reloading pretrained parameters 
     ```
 </details>
 
-## train your own source model
+## Train your own source model
 
-refer to [SHIFT-TTA-train_source_model](https://github.com/zwbx/SHIFT-TTA-train_source_model)
+Refer to [SHIFT-TTA-train_source_model](https://github.com/zwbx/SHIFT-TTA-train_source_model)
 
 ## License
 Non-commercial. Code is heavily based on Cotta, MMSegmentaion 0.11. 

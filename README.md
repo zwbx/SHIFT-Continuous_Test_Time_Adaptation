@@ -261,7 +261,8 @@ Note that evaluation for each sequence requires reloading pretrained parameters 
                 ...
     ```
 </details>
-
+## train your own source model
+refer to our another (repo)[]
 ## License
-Non-commercial. Code is heavily based on Cotta, MMSegmentaion. 
+Non-commercial. Code is heavily based on Cotta, MMSegmentaion 0.11. 
 

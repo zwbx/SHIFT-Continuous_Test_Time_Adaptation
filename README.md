@@ -1,6 +1,8 @@
 # Continuous Test-Time Adaptation on SHIFT Dataset
 
-This repository provides a benchmark for test-time adaptation (TTA) of semantic segmentation and the implementation of the some prominent methods.
+Offcial demo of [Challenge B - Continual Test-time Adaptation](https://wvcl.vis.xyz/challenges) on [Visual Continual Learning @ ICCV2023](https://wvcl.vis.xyz)
+
+This repository provides a benchmark for test-time adaptation of semantic segmentation containing some prominent methods.
 
 ## Environment setup
 Please make sure that conda or miniconda is installed on your machine before running the following command:

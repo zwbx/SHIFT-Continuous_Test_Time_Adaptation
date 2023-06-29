@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="resources/shift-logo.png" width="600"/>
+  <img src="shift-logo.png" width="600"/>
   <div>&nbsp;</div>
   <div align="center">
     <a href="https://www.vis.xyz/shift/">

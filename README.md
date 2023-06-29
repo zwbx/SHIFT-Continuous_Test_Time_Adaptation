@@ -51,20 +51,16 @@ You can download the SHIFT dataset using the download script in [shift-dev](http
 ```shell
 mkdir -p ./data/shift
 
-# Download the discrete shift set for training source models
-python download.py \
-    --view "[front]" --group "[img, det_2d, semseg]" \
-    --split "[train, val]" --framerate "[images]" \
-    --shift "discrete" \
-    ./data/shift
-
 # Download the continuous shift set for test-time adaptation
 python download.py \
-    --view "[front]" --group "[img, det_2d, semseg]" \
+    --view "[front]" --group "[img, semseg]" \
     --split "[train, val, test]" --framerate "[videos]" \
     --shift "continuous/1x" \
     ./data/shift
 ```
+
+
+
 
 
 

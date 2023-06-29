@@ -76,7 +76,7 @@ Corresponding to *Online evaluation (Val Phase)* in [Challenge B - Continual Tes
 <summary>
     <b>Source model without adaptation</b>
 </summary>
-    
+[eval log](https://github.com/zwbx/SHIFT-Continual_Test_Time_Adaptation/blob/master/Test_on_videos_1x_val/source_model_eval/evluation.txt)
 | Class         | IoU   | Acc   |
 |---------------|-------|-------|
 | building      | 43.59 | 81.2  |
@@ -102,7 +102,7 @@ Corresponding to *Online evaluation (Val Phase)* in [Challenge B - Continual Tes
 <summary>
     <b>CoTTA</b>
 </summary>
-
+[eval log](https://github.com/zwbx/SHIFT-Continual_Test_Time_Adaptation/blob/master/Test_on_videos_1x_val/cotta_eval/evluation.txt)
 | Class         | IoU   | Acc   |
 |---------------|-------|-------|
 | building      | 44.01 | 83.66 |
@@ -129,7 +129,7 @@ Corresponding to *Online evaluation (Val Phase)* in [Challenge B - Continual Tes
 <summary>
     <b>TENT</b>
 </summary>
-
+[eval log](https://github.com/zwbx/SHIFT-Continual_Test_Time_Adaptation/blob/master/Test_on_videos_1x_val/tent_eval/evluation.txt)
 
 | Class         | IoU   | Acc   |
 |---------------|-------|-------|
@@ -190,7 +190,7 @@ Corresponding to *Developing your test-time adaptation methods* in [Challenge B 
     <b>CoTTA</b>
 </summary>
 
-[eval log](https://github.com/zwbx/SHIFT-Continual_Test_Time_Adaptation/blob/master/work_dirs_train/cotta_eval/evluation.txt)
+[eval log](https://github.com/zwbx/SHIFT-Continual_Test_Time_Adaptation/blob/master/Test_on_videos_1x_train/cotta_eval/evluation.txt)
 
 | Class         | IoU   | Acc   |
 |---------------|-------|-------|

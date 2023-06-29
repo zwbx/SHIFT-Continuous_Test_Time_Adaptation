@@ -34,7 +34,6 @@ test_pipeline = [
         flip=False,
         transforms=[
             dict(type='Resize', keep_ratio=True),
-            dict(type='RandomFlip'),
             dict(type='Normalize', **img_norm_cfg),
             dict(type='ImageToTensor', keys=['img','gt_semantic_seg']),
             dict(type='Collect', keys=['img','gt_semantic_seg']),

@@ -63,11 +63,11 @@ You are able to download the pretrained models and run the evaluation scripts di
     bash run_tent.sh    # TENT
     bash run_cotta.sh   # CoTTA
     ```
-    Example logs are included in `./work_dirs_train/{base.log, tent.log, cotta.log}`.
+
 <!-- - for *SHIFT_continuous_videos_1x_train_front*,
 modify config path 'shift_train_800x500.py' to 'shift_val_800x500.py'  -->
 
-*To train your own source model, refer to [SHIFT-TTA-train_source_model](https://github.com/zwbx/SHIFT-TTA-train_source_model)*
+- To train your own source model, refer to [SHIFT-TTA-train_source_model](https://github.com/zwbx/SHIFT-TTA-train_source_model)
 
 ### Baseline results on continuous_1x/videos/val 
 Corresponding to *Online evaluation (Val Phase)* in [Challenge B - Continual Test-time Adaptation](https://wvcl.vis.xyz/challenges)

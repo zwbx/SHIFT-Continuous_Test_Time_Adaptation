@@ -1,8 +1,25 @@
+<div align="center">
+  <img src="resources/shift-logo.png" width="600"/>
+  <div>&nbsp;</div>
+  <div align="center">
+    <a href="https://www.vis.xyz/shift/">
+    <b><font size="5">[ SHIFT Project Page ]</font></b>
+    </a>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://wvcl.vis.xyz/challenges">
+    <b><font size="5">[Challenge B - Continual Test-time Adaptation]</font></b>
+    </a>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://wvcl.vis.xyz">
+    <b><font size="5">[ Visual Continual Learning @ ICCV2023 ]</font></b>
+    </a>
+  </div>
+  <div>&nbsp;</div>
+</div>
+
 # Continuous Test-Time Adaptation on SHIFT Dataset
 
-Offcial demo of [Challenge B - Continual Test-time Adaptation](https://wvcl.vis.xyz/challenges) on [Visual Continual Learning @ ICCV2023](https://wvcl.vis.xyz)
-
-This repository provides a benchmark for test-time adaptation of semantic segmentation containing some prominent methods.
+This offcial demo provides a benchmark for test-time adaptation of semantic segmentation containing some prominent methods.
 
 ## Environment setup
 Please make sure that conda or miniconda is installed on your machine before running the following command:

@@ -3,15 +3,15 @@
   <div>&nbsp;</div>
   <div align="center">
     <a href="https://www.vis.xyz/shift/">
-    <b><font size="5">[ SHIFT Project Page ]</font></b>
+    <b><font size="5">[SHIFT]</font></b>
     </a>
     &nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://wvcl.vis.xyz/challenges">
-    <b><font size="5">[Challenge B - Continual Test-time Adaptation]</font></b>
+    <b><font size="5">[Continual Test-time Adaptation Challenge]</font></b>
     </a>
     &nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://wvcl.vis.xyz">
-    <b><font size="5">[ Visual Continual Learning @ ICCV2023 ]</font></b>
+    <b><font size="5">[Visual Continual Learning @ ICCV2023]</font></b>
     </a>
   </div>
   <div>&nbsp;</div>

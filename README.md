@@ -67,7 +67,7 @@ You are able to download the pretrained models and run the evaluation scripts di
 <!-- - for *SHIFT_continuous_videos_1x_train_front*,
 modify config path 'shift_train_800x500.py' to 'shift_val_800x500.py'  -->
 
-- To train your own source model, refer to [SHIFT-TTA-train_source_model](https://github.com/zwbx/SHIFT-TTA-train_source_model)
+
 
 ### Baseline results on continuous_1x/videos/val 
 Corresponding to *Online evaluation (Val Phase)* in [Challenge B - Continual Test-time Adaptation](https://wvcl.vis.xyz/challenges)
@@ -246,6 +246,9 @@ Corresponding to *Developing your test-time adaptation methods* in [Challenge B 
 | *Average*     | 51.19 | 59.36 |
 
 </details>
+
+## Train your own source model
+-  Refer to [SHIFT-TTA-train_source_model](https://github.com/zwbx/SHIFT-TTA-train_source_model)
 
 
 ## Guide: How to adapt to newer mmsegmentation versions?

@@ -59,7 +59,19 @@ class ShiftDataset(CustomDataset):
         Returns:
             list[dict]: All image info of dataset.
         """
-
+        if 'train' in img_dir:
+            seq = '/apsara/yufeng.zwb/SHIFT/discrete/images/train/front/seq.csv'
+        else:
+            seq = '/apsara/yufeng.zwb/SHIFT/discrete/images/val/front/seq.csv'
+        train_seq = []
+        with open(seq, 'r') as file:
+            reader = csv.reader(file)
+            next(reader) # skip header row
+            for row in reader:
+                if "clear,daytime" in ','.join(row):
+                    train_seq.append(row[0])
+                    # break
+        print(train_seq)
         img_infos = []
         if split is not None:
             with open(split) as f:

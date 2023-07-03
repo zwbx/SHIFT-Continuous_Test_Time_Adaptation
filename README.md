@@ -28,7 +28,8 @@ A: Yes, it is permitted. You are allowd to train your own source model with diff
 Q: What are the criteria for ranking
 A: Performance of the TTA method on the test data set (i.e. continous_1x/videos/tset)
 
-Q: What purpose of this demo: Provide a code reference for participants to help them implement their experimental pipeline, allowing them to focus on the methods rather than the engineering details. Note that the final evaluation is based on the official website test program.
+Q: What purpose of this demo: 
+A:Provide a code reference for participants to help them implement their experimental pipeline, allowing them to focus on the methods rather than the engineering details. Note that the final evaluation is based on the official website test program.
 
 - 3 Jul 2023 - a evaluation bug has been fixed, please use the latest repo.
 

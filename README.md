@@ -22,16 +22,17 @@
 This offcial demo provides a benchmark for test-time adaptation of semantic segmentation containing some prominent methods.
 
 ## FAQ
-Q: is it allowed to use other pretrained source model?
-A: Yes, it is permitted. You are allowd to train your own source model with different architecture (e.g. deeplab v3, segformer...). But notice no additional dataset or data augmentation is allowed.
+Q: is it allowed to use other pretrained source model?   
+A: Yes, it is permitted. You are allowed to train your own source model with different architecture (e.g. deeplab v3, segformer...). But notice no additional dataset or data augmentation is allowed.
 
-Q: What are the criteria for ranking
+
+Q: What are the criteria for ranking?  
 A: Performance of the TTA method on the test data set (i.e. continous_1x/videos/tset)
 
-Q: What purpose of this demo: 
-A:Provide a code reference for participants to help them implement their experimental pipeline, allowing them to focus on the methods rather than the engineering details. Note that the final evaluation is based on the official website test program.
+Q: What purpose of this demo?   
+A: Provide a code reference for participants to help them implement their experimental pipeline, allowing them to focus on the methods rather than the engineering details. Note that the final evaluation is based on the official website test program.
 
-- 3 Jul 2023 - a evaluation bug has been fixed, please use the latest repo.
+- 3 Jul 2023 - an evaluation bug has been fixed, please use the latest repo.
 
 ## Environment setup
 Please make sure that conda or miniconda is installed on your machine before running the following command:

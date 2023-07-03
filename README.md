@@ -21,7 +21,7 @@
 
 This offcial demo provides a benchmark for test-time adaptation of semantic segmentation containing some prominent methods.
 
-# News
+## News
 - a evaluation bug has been fixed, please use the latest repo.
 
 ## Environment setup

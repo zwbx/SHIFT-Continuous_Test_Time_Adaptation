@@ -21,6 +21,9 @@
 
 This offcial demo provides a benchmark for test-time adaptation of semantic segmentation containing some prominent methods.
 
+# News
+- a evaluation bug has been fixed, please use the latest repo.
+
 ## Environment setup
 Please make sure that conda or miniconda is installed on your machine before running the following command:
 
@@ -79,6 +82,99 @@ You are able to download the pretrained models and run the evaluation scripts di
 
 <!-- - for *SHIFT_continuous_videos_1x_train_front*,
 modify config path 'shift_train_800x500.py' to 'shift_val_800x500.py'  -->
+
+
+
+### Baseline results on continuous_1x/videos/val 
+Corresponding to *Online evaluation (Val Phase)* in [Challenge B - Continual Test-time Adaptation](https://wvcl.vis.xyz/challenges)
+
+<details>
+<summary>
+    <b>Source model without adaptation</b>
+</summary>
+
+[eval log](https://github.com/zwbx/SHIFT-Continual_Test_Time_Adaptation/blob/master/Test_on_videos_1x_val/source_model_eval/evluation.txt)
+
+
+| Class         | IoU   | Acc   |
+|---------------|-------|-------|
+| building      | 43.59 | 81.2  |
+| fence         | 27.87 | 38.11 |
+| pedestrian    | 42.63 | 50.2  |
+| pole          | 39.88 | 51.73 |
+| road line     | 62.33 | 72.35 |
+| road          | 91.23 | 93.92 |
+| sidewalk      | 68.27 | 73.55 |
+| vegetation    | 55.68 | 66.5  |
+| vehicle       | 68.12 | 96.46 |
+| wall          | 41.15 | 55.14 |
+| traffic sign  | 34.42 | 39.92 |
+| sky           | 51.75 | 55.35 |
+| traffic light | 30.32 | 35.0  |
+| terrain       | 34.64 | 46.6  |
+| *Average*     | 49.42 | 61.14 |
+
+</details>
+
+
+<details>
+<summary>
+    <b>CoTTA</b>
+</summary>
+
+
+[eval log](https://github.com/zwbx/SHIFT-Continual_Test_Time_Adaptation/blob/master/Test_on_videos_1x_val/cotta_eval/evluation.txt)
+
+
+| Class         | IoU   | Acc   |
+|---------------|-------|-------|
+| building      | 44.01 | 83.66 |
+| fence         | 30.16 | 39.04 |
+| pedestrian    | 46.68 | 53.66 |
+| pole          | 44.92 | 55.03 |
+| road line     | 65.98 | 74.36 |
+| road          | 90.65 | 93.26 |
+| sidewalk      | 69.62 | 73.85 |
+| vegetation    | 54.93 | 65.03 |
+| vehicle       | 69.78 | 96.65 |
+| wall          | 41.13 | 54.5  |
+| traffic sign  | 37.96 | 42.18 |
+| sky           | 52.27 | 55.94 |
+| traffic light | 32.81 | 36.61 |
+| terrain       | 35.2  | 46.04 |
+| *Average*     | 51.15 | 62.13 |
+
+
+</details>
+
+<details>
+
+<summary>
+    <b>TENT</b>
+</summary>
+
+[eval log](https://github.com/zwbx/SHIFT-Continual_Test_Time_Adaptation/blob/master/Test_on_videos_1x_val/tent_eval/evluation.txt)
+
+| Class         | IoU   | Acc   |
+|---------------|-------|-------|
+| building      | 50.98 | 84.39 |
+| fence         | 26.92 | 33.36 |
+| pedestrian    | 41.03 | 46.83 |
+| pole          | 36.1  | 41.01 |
+| road line     | 61.93 | 69.09 |
+| road          | 93.38 | 96.22 |
+| sidewalk      | 69.29 | 74.49 |
+| vegetation    | 52.68 | 61.02 |
+| vehicle       | 79.44 | 95.24 |
+| wall          | 39.14 | 50.68 |
+| traffic sign  | 31.91 | 35.32 |
+| sky           | 54.44 | 57.53 |
+| traffic light | 26.51 | 28.92 |
+| terrain       | 35.63 | 42.59 |
+| *Average*     | 49.96 | 58.34 |
+
+</details>
+
 
 
 ## Train your own source model

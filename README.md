@@ -32,12 +32,12 @@ A: Performance of the TTA method on the test data set (i.e. continous_1x/videos/
 Q: What purpose of this demo?   
 A: Provide a code reference for participants to help them implement their experimental pipeline, allowing them to focus on the methods rather than the engineering details. Note that the final evaluation is based on the official website test program.
 
-Q: what is evalution.txt
-A: The evaluation process is implemented using tools/resprocess.py. This script calculates the average mIoU over all sequences, and its results are stored in a file named evalution.txt.
+Q: what is evalution.txt  
+A: The evaluation process is implemented using tools/resprocess.py. This script calculates the average mIoU over all sequences, and its results are stored in a file named evalution.txt.   
 
-The function has an in_domain parameter. If this parameter is set to True, the output file will be evluation_indomain.txt instead of evalution.txt. The evluation_indomain.txt file represents the average mIoU over sequences specifically from clear, daytime conditions.
+The function has an in_domain parameter. If this parameter is set to True, the output file will be evluation_indomain.txt instead of evalution.txt. The evluation_indomain.txt file represents the average mIoU over sequences specifically from clear, daytime conditions.  
 
-It's worth noting that the results from evluation_indomain.txt, rather than evalution.txt, are used for leaderboard ranking.
+It's worth noting that the results from evluation_indomain.txt, rather than evalution.txt, are used for leaderboard ranking.  
 
 
 

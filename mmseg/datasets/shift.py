@@ -60,9 +60,9 @@ class ShiftDataset(CustomDataset):
             list[dict]: All image info of dataset.
         """
         if 'train' in img_dir:
-            seq = '/apsara/yufeng.zwb/SHIFT/discrete/images/train/front/seq.csv'
+            seq = 'path of seq.csv of continuous_1x/videos/train/front'
         else:
-            seq = '/apsara/yufeng.zwb/SHIFT/discrete/images/val/front/seq.csv'
+            seq = 'path of seq.csv of continuous_1x/videos/validation/front'
         train_seq = []
         with open(seq, 'r') as file:
             reader = csv.reader(file)

@@ -33,7 +33,7 @@ Q: What purpose of this demo?
 A: Provide a code reference for participants to help them implement their experimental pipeline, allowing them to focus on the methods rather than the engineering details. Note that the final evaluation is based on the official website test program.
 
 Q: what is evalution.txt  
-A: The evaluation process is implemented using tools/resprocess.py. This script calculates the average mIoU over all sequences, and its results are stored in a file named evalution.txt.   
+A: The evaluation process is implemented using tools/res_process.py. This script calculates the average mIoU over all sequences, and its results are stored in a file named evalution.txt.   
 
 The function has an in_domain parameter. If this parameter is set to True, the output file will be evluation_indomain.txt instead of evalution.txt. The evluation_indomain.txt file represents the average mIoU over sequences specifically from clear, daytime conditions.  
 

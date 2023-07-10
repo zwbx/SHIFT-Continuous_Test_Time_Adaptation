@@ -33,7 +33,16 @@ Q: What purpose of this demo?
 A: Provide a code reference for participants to help them implement their experimental pipeline, allowing them to focus on the methods rather than the engineering details. Note that the final evaluation is based on the official website test program.
 
 Q: what is evalution.txt
-A: the evalution.txt calculate average mIoU over all sequence, which is implemented by tools/resprocess.py. In this function, if in_domain == True, evluation_indomain.txt rather than evalution.txt will be output, the former represents average mIoU over sequence from clear,daytime. It is for leadboard ranking. 
+A: The evaluation process is implemented using tools/resprocess.py. This script calculates the average mean Intersection over Union (mIoU) over all sequences, and its results are stored in a file named evalution.txt.
+
+The function has an in_domain parameter. If this parameter is set to True, the output file will be evluation_indomain.txt instead of evalution.txt. The evluation_indomain.txt file represents the average mIoU over sequences specifically from clear, daytime conditions.
+
+It's worth noting that the results from evluation_indomain.txt, rather than evalution.txt, are used for leaderboard ranking.
+
+
+
+
+
 
 - 3 Jul 2023 - an evaluation bug has been fixed, please use the latest repo.
 

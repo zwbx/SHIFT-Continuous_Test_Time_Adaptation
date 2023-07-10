@@ -32,6 +32,9 @@ A: Performance of the TTA method on the test data set (i.e. continous_1x/videos/
 Q: What purpose of this demo?   
 A: Provide a code reference for participants to help them implement their experimental pipeline, allowing them to focus on the methods rather than the engineering details. Note that the final evaluation is based on the official website test program.
 
+Q: what is evalution.txt
+A: the evalution.txt calculate average mIoU over all sequence, which is implemented by tools/resprocess.py. In this function, if in_domain == True, evluation_indomain.txt rather than evalution.txt will be output, the former represents average mIoU over sequence from clear,daytime. It is for leadboard ranking. 
+
 - 3 Jul 2023 - an evaluation bug has been fixed, please use the latest repo.
 
 ## Environment setup

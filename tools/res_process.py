@@ -5,7 +5,7 @@ import csv
 import mmcv
 from terminaltables import AsciiTable
 
-def res_process(res_path,csv_root,in_domain=False):
+def res_process(res_path,csv_root,in_domain=True):
         # Initialize the dictionary
     json_dict = {}
     seq_path = os.path.join(res_path,'res') 

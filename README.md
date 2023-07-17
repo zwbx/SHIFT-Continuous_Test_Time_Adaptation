@@ -78,7 +78,7 @@ mkdir -p ./data/shift
 
 # Download the continuous shift set for test-time adaptation
 python download.py \
-    --view "[front]" --group "[img, semseg]" \
+    --view "[front]" --group "[img, semseg, seq]" \
     --split "[train, val, test]" --framerate "[videos]" \
     --shift "continuous/1x" \
     ./data/shift
